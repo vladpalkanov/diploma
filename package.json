@@ -1,0 +1,38 @@
+{
+  "name": "diploma",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "postinstall": "bower i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladpalkanov/diploma.git"
+  },
+  "author": "palkanovvlad",
+  "bugs": {
+    "url": "https://github.com/vladpalkanov/diploma/issues"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {
+    "gulp-rename": "~1.2.2",
+    "gulp": "~3.8.11",
+    "gulp-autoprefixer": "~2.2.0",
+    "gulp-notify": "~2.2.0",
+    "gulp-imagemin": "~2.2.1",
+    "tiny-lr": "~0.1.5",
+    "gulp-livereload": "~3.8.0",
+    "gulp-styl": "~1.0.3",
+    "gulp-csso": "~1.0.0",
+    "gulp-stylus": "~2.0.1",
+    "gulp-connect": "~2.2.0"
+  },
+  "dependencies": {
+    "express": "~4.12.3"
+  }
+}

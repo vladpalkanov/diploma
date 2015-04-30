@@ -1,0 +1,16 @@
+*.bak
+*.log
+.vagrant/
+node_modules/
+server/public/
+build/
+*.zip
+.idea
+*.sublime*
+.sass-cache
+Thumbs.db
+assets/css/screen.css
+assets/css/landing.css
+settings/.config
+settings/.config-test
+coverage/*
